@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradiciones de mi Comunidad y Pueblos Vecinos</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #43C6AC;
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);
+    background: linear-gradient(to right, #191654, #43C6AC);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px; /* Ajusta el tamaño de la fuente según tu preferencia */
+}
+
+        header, footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
+
+        section {
+            display: none;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            flex: 1;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .active {
+            display: block;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+        }
+        .content {
+            text-align: justify;
+        } 
+    </style>
+    <script>
+        function showSection(id) {
+            var sections = document.querySelectorAll('section');
+            sections.forEach(section => section.classList.remove('active'));
+            var activeSection = document.getElementById(id);
+            activeSection.classList.add('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            showSection('inicio');
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Tradiciones de Pueblos </h1>
+        <p>Explora las tradiciones de Chiconcuac, Tepeticlan y Tepetlaoxtoc.</p>
+    </header>
+    
+
+    <nav>
+        <a href="javascript:void(0);" onclick="showSection('inicio')">Inicio</a>
+        <a href="javascript:void(0);" onclick="showSection('chiconcuac')">Chiconcuac</a>
+        <a href="javascript:void(0);" onclick="showSection('tepetitlan')">Tepetitlan</a>
+        <a href="javascript:void(0);" onclick="showSection('tepetlaoxtoc')">Tepetlaoxtoc</a>
+    </nav>
+
+    <section id="inicio" class="active">
+        <h2>Inicio</h2>
+        <hr>
+        <p>El Estado de México es una región rica en historia y tradiciones culturales. Los pueblos de Chiconcuac, Tepetlaoxtoc y Tepetitlán (Tepetitlan) destacan por sus festividades, danzas y gastronomía únicas, que reflejan una herencia cultural preservada a través de los siglos. Cada pueblo ofrece una experiencia distinta, llena de color y vida.</p>
+        <img src="inicio.jpg" alt="Imagen de inicio">
+    </section>
+
+    <section id="chiconcuac">
+        <h2>Chiconcuac</h2>
+        <hr>
+        <div class="content">
+            <p>Chiconcuac es conocido por su vibrante Fiesta de San Miguel Arcángel, que se celebra a finales de septiembre. Durante esta festividad, los habitantes realizan danzas tradicionales, desfiles y actividades religiosas. Entre las danzas más destacadas se encuentran la Danza de los Arcos y la Danza de los Machetes. La gastronomía local incluye deliciosos platillos como los tamales y el mole, que se disfrutan durante las festividades. Además, es común encontrar artesanías locales como textiles y cerámica, que reflejan la rica tradición artesanal del pueblo.</p>
+        </div>
+        <div class="gallery">
+            <img src="chiconcuac1.jpg" alt="Imagen de Chiconcuac 1">
+           
+        </div>
+        <div class="content">
+ <p>Este 29 de septiembre, desde temprana hora cientos de artesanos y pobladores se dieron cita en la explanada principal de la localidad, frente al atrio de la iglesia de San Miguel Arcángel, para festejar a su santo patrono.
+
+Previamente, la iglesia y su atrio fue adornada con cientos de pequeñas prendas como suéteres, chalecos, bufandas, abrigos y gorros, hechos de lana por los artesanos, que cuelgan como tendederos. También, cada padrino elegido días antes, viste a los arcángeles y adorna el interior de la parroquia.
+<p>
+<div class="gallery">
+<img src="chiconcuac3.jpg" alt="Imagen de Chiconcuac 3">
+</div>
+Durante el día, decenas de familias acuden llevando música de banda y arreglos florales a su santo patrono en agradecimiento por lo recibido durante el año. También se hicieron presentes los tradicionales “Santiagos” con sus bailes.
+Elizabeth Espinoza Ceballos, una de las artesanas, explicó que la tradición data de los años mil 600 cuando fue fundada la iglesia, y actualmente la organización de las festividad corre a cargo de tres grupos de vecinos: el de San Miguel que es el encargado de organizar las mañanitas; el grupo Chicomecuac que organiza la festividad a medio día y el grupo Xolache-Xala que se encarga de la serenata.
+<p>
+<div class="gallery">
+<img src="chiconcuac4.jpg" alt="Imagen de Chiconcuac 4">
+</div>
+
+“Este día es muy importante para el municipio, viene gente de muchos lados, que trae ofrendas de flores, fruta, música, artesanías. El arreglo especial son las prendas tejidas que realizan los grupos de textileros que hay en el municipio y que los hace de lana. Se organizan vienen con los mayordomos a recoger la lana y empiezan a tejer días antes y cada uno saca una idea de prenda como suéteres, abrigos o chalecos.
+Somos 120 artesanos textileros de lana, que producimos cualquier tipo de suéter y que año con año damos las gracias a los arcángeles Miguel, Gabriel y Rafael por el año de trabajo y ventas de nuestras artesanías. Hay padrinos especiales para darles las gracias y vestir a los tres arcángeles. Es un orgullo ser de Chiconcuac”, dijo.
+
+La iglesia de San Miguel data del siglo XVII, remodelada a finales del siglo XVIII y principios del siguiente, misioneros franciscanos lo dedicaron al Arcángel Miguel, su portada está considerada como una de las más bellas de la región. Sobre la redondeada barda atrial destacan figuras guardianas, macetones, un reloj de sol y los leones rampantes que recargados sobre los arcos de los tres accesos al atrio custodian el templo.
+<p>
+<div class="gallery">
+ <img src="chiconcuac2.jpg" alt="Imagen de Chiconcuac 2">
+           </div>
+      
+      
+
+En el primer cuerpo destacan, columnas corintias y nichos vacíos, encuadrando el arco mixtilíneo decorado con flores, pequeños ángeles con flautas, o sosteniendo una cruz y una balanza, emblemas de San Miguel. Minúsculos atlantes resaltan entre los monogramas de Santa Ana, la Virgen, Cristo, San José y San Joaquín.
+            </p>
+        
+        <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15038.361546427006!2d-98.90550930272673!3d19.559191627575167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1e893c8756231%3A0x93e9d8295c0ea0bd!2sChiconcuac%20de%20Ju%C3%A1rez%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1718084414619!5m2!1ses-419!2smx" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+    </section>
+
+    <section id="tepetitlan">
+        <h2>Tepetitlan</h2>
+        <hr>
+        <div class="content">
+            <p>Tepetitlán se destaca por sus festividades y celebraciones únicas. Una de las más importantes es la Fiesta de la Candelaria, celebrada en febrero. Durante esta celebración, los pobladores realizan procesiones, ceremonias religiosas y eventos culturales que incluyen música y baile. La comunidad se une para celebrar con una serie de actividades que reflejan la riqueza cultural del pueblo.
+            <div class="gallery">
+            <img src="tepetitlan4.jpg" alt="Imagen de Tepetitlan 4" style="width: 70%; height: auto;"> 
+            </div>
+            Las danzas tradicionales, como la Danza de los Concheros, y las representaciones teatrales de eventos históricos son aspectos destacados de las festividades. La gastronomía local presenta una variedad de platillos, como los tamales de frijol y el atole, que son parte esencial de las celebraciones.</p>
+        </div>
+        <div class="gallery">
+            <img src="tepetitlan1.jpg" alt="Imagen de Tepetitlan 1">
+            
+            
+      
+        </div>
+        
+            </div>
+            <div class="content">
+                <p>
+            La Fiesta de la Candelaria es una celebración importante en Tepetitlán, Estado de México. Durante esta festividad, que se lleva a cabo en febrero, la comunidad se reúne para honrar a la Virgen de la Candelaria, una figura religiosa venerada en la tradición católica.
+
+Durante la Fiesta de la Candelaria, se realizan diversas actividades que incluyen procesiones, ceremonias religiosas, eventos culturales, música y baile. Los pobladores suelen vestirse con trajes típicos y participar en las actividades festivas con gran entusiasmo.
+<div class="gallery">
+<img src="tepetitlan2.jpg" alt="Imagen de Tepetitlan 2">
+            </div>
+Una de las características destacadas de esta festividad son las danzas tradicionales, como la Danza de los Concheros, que es una manifestación cultural arraigada en la región y que se realiza como una forma de expresión de la fe y la identidad cultural de la comunidad.
+
+Además de las actividades religiosas, la Fiesta de la Candelaria también ofrece una variedad de alimentos típicos y platillos tradicionales que se comparten entre los asistentes. Es una ocasión para disfrutar de la gastronomía local y compartir momentos de convivencia con familiares y amigos.
+<div class="gallery">
+<img src="tepetitlan3.jpg" alt="Imagen de Tepetitlan 3">
+</div>
+En resumen, la Fiesta de la Candelaria en Tepetitlán es una celebración colorida y significativa que combina aspectos de la religión, la cultura y la tradición local, proporcionando una experiencia única para los participantes y visitantes.
+</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7518.404715169269!2d-98.87509050882977!3d19.575829435669036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1e85b213c7eef%3A0xec1f330d1767fbee!2zVGVwZXRpdGzDoW4sIE3DqXgu!5e0!3m2!1ses-419!2smx!4v1718084663113!5m2!1ses-419!2smx" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+    </section>
+
+<section id="tepetlaoxtoc">
+    <h2>Tepetlaoxtoc</h2>
+    <hr>
+    <div class="content">
+        <p>Tepetlaoxtoc se distingue por sus tradiciones ancestrales y su folklore. Las fiestas patronales en honor a San Bartolomé, celebradas en agosto, son el evento principal del año. Las danzas prehispánicas y los rituales religiosos son parte integral de estas festividades, junto con la participación comunitaria en procesiones y eventos culturales. La música tradicional y los bailes folclóricos también son componentes esenciales de las celebraciones, ofreciendo una experiencia cultural rica y diversa. La gastronomía incluye platillos como el barbacoa, mixiotes y tlacoyos, que son preparados y disfrutados por toda la comunidad.</p>
+    </div>
+    <div class="gallery">
+        <img src="tepetlaoxtoc1.jpg" alt="Imagen de Tepetlaoxtoc 1">
+        
+        
+        </div>
+     <div class="content">   
+     <p> La celebración de San Bartolomé en Tepetlaoxtoc, Estado de México, es una festividad emblemática que honra a este santo patrón. Esta celebración se lleva a cabo en agosto y es una ocasión para que la comunidad se reúna y participe en diversas actividades religiosas y culturales.
+
+Durante la festividad de San Bartolomé, se realizan procesiones solemnes en honor al santo, en las cuales se lleva su imagen por las calles del pueblo. Estas procesiones suelen estar acompañadas de música, cánticos y oraciones por parte de los fieles.
+<div class="gallery">
+<img src="tepetlaoxtoc2.jpg" alt="Imagen de Tepetlaoxtoc 2">
+</div>
+Además de las actividades religiosas, la festividad de San Bartolomé en Tepetlaoxtoc también incluye eventos culturales como danzas tradicionales, representaciones teatrales y música folclórica. Estas actividades son una oportunidad para celebrar la identidad cultural de la comunidad y preservar sus tradiciones ancestrales.
+
+La gastronomía local también juega un papel importante en la festividad, con la preparación y venta de platillos típicos como la barbacoa, los mixiotes y los tlacoyos. Estos alimentos son compartidos y disfrutados por los asistentes, creando un ambiente festivo y de convivencia.
+<div class="gallery">
+    <img src="tepetlaoxtoc3.jpg" alt="Imagen de Tepetlaoxtoc 3">
+    </div>
+
+En resumen, la celebración de San Bartolomé en Tepetlaoxtoc es una ocasión especial para la comunidad, en la cual se combinan elementos de religión, cultura, tradición y gastronomía para celebrar y rendir homenaje a su santo patrón.
+        </p>
+   </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15038.223265071065!2d-98.8313951527262!3d19.560674477370657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1c290afb32df3%3A0xd66f9f9efa99b3bf!2s56077%20El%20Tepetloxto%2C%20M%C3%A9x.!5e0!3m2!1ses-419!2smx!4v1718084724072!5m2!1ses-419!2smx" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+</section>
+<footer>
+        
+        <p>Contacta con nosotros en nuestras redes sociales:</p>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </footer>
+</body>
+</html>
